@@ -46,10 +46,10 @@ ScreenGui.Name = Name
 
 Main.Name = "Main"
 Main.Parent = ScreenGui
-Main.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Main.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.261832356, 0, 0.310139179, 0)
-Main.Size = UDim2.new(0, 738, 0, 320)
+Main.Size = UDim2.new(0, 837, 0, 320)
 Main.ClipsDescendants = true
 
 
@@ -95,14 +95,14 @@ local UserInputService = game:GetService("UserInputService")
 
 Topbar.Name = "Topbar"
 Topbar.Parent = Main
-Topbar.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Topbar.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
 Topbar.ZIndex = 2
 Topbar.BorderSizePixel = 0
 Topbar.Position = UDim2.new(-0.002, 0,0.019, 0)
-Topbar.Size = UDim2.new(0, 497,0, 26)
+Topbar.Size = UDim2.new(0, 837,0, 26)
 Topbar.Font = Enum.Font.SourceSansBold
 Topbar.Text = Name
-Topbar.TextColor3 = Color3.fromRGB(255, 255, 255)
+Topbar.TextColor3 = Color3.fromRGB(355, 355, 355)
 Topbar.TextSize = 25.000
 Topbar.TextWrapped = true
 
@@ -134,7 +134,7 @@ end)
 Tabs.Name = "Tabs"
 Tabs.Parent = Main
 Tabs.Active = true
-Tabs.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Tabs.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
 Tabs.BorderSizePixel = 0
 Tabs.Position = UDim2.new(0.0193132665, 0, 0.11881189, 0)
 Tabs.Size = UDim2.new(0, 155, 0, 275)
@@ -143,7 +143,7 @@ Tabs.VerticalScrollBarPosition = Enum.VerticalScrollBarPosition.Left
 
 TabButtons.Name = "TabButtons"
 TabButtons.Parent = Tabs
-TabButtons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TabButtons.BackgroundColor3 = Color3.fromRGB(355, 355, 355)
 TabButtons.BackgroundTransparency = 1.000
 TabButtons.Position = UDim2.new(0.174193546, 0, 0.0109374998, 0)
 TabButtons.Size = UDim2.new(0, 100, 0, 100)
@@ -180,11 +180,11 @@ PageContainer.Parent = Main
 
             Tab.Name = TabName
 Tab.Parent = TabButtons
-Tab.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Tab.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
 Tab.BorderSizePixel = 0
 Tab.Size = UDim2.new(0, 127, 0, 35)
 Tab.Font = Enum.Font.SourceSansBold
-Tab.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tab.TextColor3 = Color3.fromRGB(355, 355, 355)
 Tab.TextSize = 22.000
 Tab.Text = TabName
 Tab.MouseButton1Click:Connect(function ()
@@ -193,7 +193,7 @@ Tab.MouseButton1Click:Connect(function ()
             v.BackgroundColor3 = Color3.fromRGB(15,15,15)
         end
     end
-    Tab.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+    Tab.BackgroundColor3 = Color3.fromRGB(52, 52, 52)
     game:GetService("TweenService"):Create(Tab,TweenInfo.new(0.15,Enum.EasingStyle.Linear,Enum.EasingDirection.Out,0,false),{Size = UDim2.new(0, 121,0, 31)}):Play()
     wait(0.15)
     game:GetService("TweenService"):Create(Tab,TweenInfo.new(0.15,Enum.EasingStyle.Linear,Enum.EasingDirection.Out,0,false),{Size = UDim2.new(0, 127, 0, 35)}):Play()
@@ -208,10 +208,10 @@ PageContainer.Parent = Main
 
 Page.Name = TabName .. "Page"
 Page.Parent = PageContainer
-Page.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Page.BackgroundColor3 = Color3.fromRGB(85, 85, 85)
 Page.BorderSizePixel = 0
 Page.Position = UDim2.new(0.348088533, 0, 0.118749999, 0)
-Page.Size = UDim2.new(0, 315, 0, 275)
+Page.Size = UDim2.new(0, 835, 0, 275)
 Page.Visible = false
 if IsMainPage == true then
     Page.Visible = true
@@ -239,7 +239,7 @@ end)
 
 Search.Name = "Search"
 Search.Parent = Display
-Search.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
+Search.BackgroundColor3 = Color3.fromRGB(55, 45, 55)
 Search.BorderSizePixel = 0
 Search.Position = UDim2.new(0.0223844014, 0, 0.0254545454, 0)
 Search.Size = UDim2.new(0, 300, 0, 28)
