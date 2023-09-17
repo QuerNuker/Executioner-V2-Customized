@@ -49,7 +49,7 @@ Main.Parent = ScreenGui
 Main.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.261832356, 0, 0.310139179, 0)
-Main.Size = UDim2.new(0, 496, 0, 320)
+Main.Size = UDim2.new(0, 738, 0, 320)
 Main.ClipsDescendants = true
 
 
